@@ -1,0 +1,64 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+a{
+    cursor: pointer;
+}
+
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+
+.modalBackdrop {
+    top: 0;
+    left: 0;
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    justify-content: center;
+    align-items: center;
+}
+
+.modalBackdrop.visible {
+    display: flex;
+}
+
+.closeModal{
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.form-container {
+    width: 400px;
+}
+
+.login-form {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    margin: 200px auto 0;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.valid {
+    border: 1px solid green;
+}
+
+.link-new-acc {
+    display: block;
+    text-align: right;
+}

@@ -1,0 +1,11 @@
+[
+  {
+    "outputFileName": "JS/App.min.js",
+    "inputFiles": [
+      "JS/Form.js",
+      "JS/Table.js",
+      "JS/XHRService.js",
+      "JS/App.js"
+    ]
+  }
+]
